@@ -23,7 +23,7 @@ jobs:
         flake8 src/model/
   job2:
     name: unit-tests
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Check out repo
       uses: actions/checkout@main
