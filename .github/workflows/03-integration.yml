@@ -1,4 +1,4 @@
-name: Code checks
+name: Integration
 
 on:
   pull_request:
